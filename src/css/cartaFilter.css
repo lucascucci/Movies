@@ -1,0 +1,30 @@
+.h1CardFilter{
+    font-size: 20px;
+}
+
+.imgCardFilter{
+    height: 300px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.btnCardFilter{
+    width: 100px;
+    background-color: black;
+    color: yellow;
+}
+
+.descri {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.containerCard{
+
+    background-color: rgb(162, 181, 228);
+    border: 2px solid black;
+    
+    
+}
+
+
