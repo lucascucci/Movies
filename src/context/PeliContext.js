@@ -31,21 +31,21 @@ const PeliProvider = ({children}) => {
     },[categoriaId]);
     
     const [dataNv, setDataNv] = useState([]);
-    const { categoriaId2 } = useParams();
+    const { categoriaIdNv } = useParams();
 
     useEffect(() => {
         const querydb = getFirestore();
         const queryCollection = collection(querydb, 'serieHMD')
 
-        if (categoriaId2) {
-            const queryFilter = query(queryCollection, where('categoria', '==', categoriaId))
+        if (categoriaIdNv) {
+            const queryFilter = query(queryCollection, where('categoria', '==', categoriaIdNv))
             getDocs(queryFilter)
                 .then(res => setDataNv(res.docs.map(data => ({ id: data.id, ...data.data() }))))
         } else {
             getDocs(queryCollection)
                 .then(res => setDataNv(res.docs.map(data => ({ id: data.id, ...data.data() }))))
         }
-    }, [categoriaId2])
+    }, [categoriaIdNv])
 
     return (
         <PeliContext.Provider value={{data,dataNv}}>

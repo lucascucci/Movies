@@ -1,8 +1,10 @@
 import SerieHMDCard from "../SerieHMDCard/SerieHMDCard";
+import { usePeliContext } from "../../../context/PeliContext";
 
+const SerieHMD = () => {
 
-const SerieHMD = ({dataNv}) => {
-    
+    const {dataNv} = usePeliContext()
+
     return(
         <>
         <div style={{display:'flex', flexDirection:'row',flexWrap:'wrap',justifyContent:'space-evenly',padding:'10px',marginBottom:'40px'}}>

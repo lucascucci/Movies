@@ -1,6 +1,6 @@
 import '../../css/itemDetail.css';
 
-
+//detail de peliculas
 
 const ItemDetail =({data}) => {
 
@@ -10,9 +10,12 @@ const ItemDetail =({data}) => {
                 {data.titulo}
             </div>
             <div>
+                {data.descripcion}
+            </div>
+            <div>
             <img src={data.imagen} alt='portada' className="img"/>
             </div>
-            <div>Elenco</div>
+            <div>Elenco1</div>
         </div>    
     )
 }

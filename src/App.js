@@ -7,9 +7,10 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import Series from './components/Series/Series';
-import SerieHMDContainer from './components/SerieHMDContainer/SerieHMDContainer';
 import SerieBBContainer from './components/SerieBBContainer/SerieBBContainer';
 import DetailContainerBB from './components/DetailContainerBB/DetailContainerBB';
+import SerieHMD from './components/Series/SerieHMD/SerieHMD';
+
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/peliculas' element={<FilterMovies/>}/>
       <Route path='/series' element={<Series/>}/>
-      <Route path='/series/housemd' element={<SerieHMDContainer/>}/>
+      <Route path='/series/housemd' element={<SerieHMD/>}/>
       <Route path='/series/bb' element={<SerieBBContainer/>}/>
       <Route path='/serieBB/:id' element={<DetailContainerBB/>}/>
       <Route path='/item/:id' element={<ItemDetailContainer/>}/>

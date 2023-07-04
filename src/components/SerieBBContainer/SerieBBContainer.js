@@ -5,7 +5,7 @@ import SerieBB from "../Series/SerieBB/SerieBB";
 
 const SerieBBContainer = () => {
 
-    const [dataNv, setDataNv] = useState([]);
+    const [dataSS, setDataSS] = useState([]);
     const { categoriaId } = useParams();
 
     useEffect(() => {
@@ -15,14 +15,14 @@ const SerieBBContainer = () => {
         if (categoriaId) {
             const queryFilter = query(queryCollection, where('categoria', '==', categoriaId))
             getDocs(queryFilter)
-                .then(res => setDataNv(res.docs.map(data => ({ id: data.id, ...data.data() }))))
+                .then(res => setDataSS(res.docs.map(data => ({ id: data.id, ...data.data() }))))
         } else {
             getDocs(queryCollection)
-                .then(res => setDataNv(res.docs.map(data => ({ id: data.id, ...data.data() }))))
+                .then(res => setDataSS(res.docs.map(data => ({ id: data.id, ...data.data() }))))
         }
     }, [categoriaId])
 
-    return <SerieBB dataNv={dataNv} />
+    return <SerieBB dataSS={dataSS} />
 }
 
 export default SerieBBContainer;

@@ -1,12 +1,12 @@
 import SerieBBCard from "../SerieBBCard/SerieBBCard";
 
 
-const SerieBB = ({dataNv}) => {
+const SerieBB = ({dataSS}) => {
     
     return(
         <div style={{display:'flex', flexDirection:'row',flexWrap:'wrap',justifyContent:'space-evenly'}}>
-            {dataNv.map((dataNv) => (
-                <SerieBBCard dataNv={dataNv} key={dataNv.id}/>
+            {dataSS.map((dataSS) => (
+                <SerieBBCard dataSS={dataSS} key={dataSS.id}/>
             ))}
         </div>
     )
