@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { usePeliContext } from "../../context/PeliContext";
-import CartaFilter from "../CartaFilter/CartaFilter";
-import '../../css/filterMovies.css'
+import { usePeliContext } from "../../../context/PeliContext";
+import CartaFilter from "../../CartaFilter/CartaFilter";
+import '../../../css/filterMovies.css';
 
 
 const FilterMovies = () => {

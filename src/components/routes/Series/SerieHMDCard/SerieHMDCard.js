@@ -1,4 +1,4 @@
-import '../../../css/cartaFilter.css';
+import '../../../../css/cartaFilter.css';
 
 
 const SerieHMDCard = ({dataNv}) => {

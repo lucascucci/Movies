@@ -1,5 +1,5 @@
 import SerieHMDCard from "../SerieHMDCard/SerieHMDCard";
-import { usePeliContext } from "../../../context/PeliContext";
+import { usePeliContext } from "../../../../context/PeliContext";
 
 const SerieHMD = () => {
 

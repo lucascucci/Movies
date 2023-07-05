@@ -1,4 +1,4 @@
-import '../../../css/cartaFilter.css';
+import '../../../../css/cartaFilter.css';
 import { Link } from 'react-router-dom';
 
 

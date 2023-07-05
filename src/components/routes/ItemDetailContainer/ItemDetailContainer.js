@@ -1,7 +1,7 @@
 
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import ItemDetail from "../ItemDetail/ItemDetail";
+import ItemDetail from "../../../components/ItemDetail/ItemDetail";
 import { getFirestore,doc,getDoc } from 'firebase/firestore';
 //utilizado para obtener ID de seccion peliculas
 

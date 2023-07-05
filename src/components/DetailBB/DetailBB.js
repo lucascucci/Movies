@@ -1,13 +1,15 @@
 import '../../css/detailBB.css'
-const DetailBB =({data}) => {
+
+const DetailBB =({dataSS}) => {
 
     return (
         <div className="container">
             <h1>
-                {data.titulo}
-                <img src={data.imagen} alt='portada' className="img"/>
-                
+                {dataSS.titulo}
             </h1>
+            <div>
+                <img src={dataSS.imagen} alt='portada' className="img"/>
+            </div>
         </div>    
     )
 }
