@@ -1,4 +1,4 @@
-import SerieHMDCard from "../SerieHMDCard/SerieHMDCard";
+import SerieHMDCard from "../../../Serie/SerieHMDCard/SerieHMDCard";
 import { usePeliContext } from "../../../../context/PeliContext";
 
 const SerieHMD = () => {

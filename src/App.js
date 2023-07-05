@@ -6,7 +6,7 @@ import Home from './components/routes/Home/Home';
 import ItemDetailContainer from './components/routes/ItemDetailContainer/ItemDetailContainer';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
-import Series from './components/routes/Series/Series';
+import Series from './components/Serie/Series';
 import DetailContainerBB from './components/routes/DetailContainerBB/DetailContainerBB';
 import SerieHMD from './components/routes/Series/SerieHMD/SerieHMD';
 import SerieBB from './components/routes/Series/SerieBB/SerieBB';

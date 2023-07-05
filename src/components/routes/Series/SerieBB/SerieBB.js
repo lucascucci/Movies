@@ -1,5 +1,5 @@
 import { usePeliContext } from "../../../../context/PeliContext";
-import SerieBBCard from "../SerieBBCard/SerieBBCard";
+import SerieBBCard from "../../../Serie/SerieBBCard/SerieBBCard";
 
 
 const SerieBB = () => {
