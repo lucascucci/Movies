@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'; // falta link
+import { Link } from 'react-router-dom';
 import '../../css/cartaFilter.css'
 
 const CartaFilter = ({items}) => {
@@ -8,7 +8,6 @@ const CartaFilter = ({items}) => {
         <div className='containerCard' >
             <h1 className="titulo">{items.titulo}</h1>
             <div className='descri'>
-            
             </div>
             <br></br>
             <div>        

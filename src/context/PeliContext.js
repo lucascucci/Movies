@@ -55,7 +55,7 @@ const PeliProvider = ({children}) => {
         const querydb = getFirestore();
         const queryCollection = collection(querydb, 'serieBB')
 
-        if (categoriaId) {
+        if (categoriaIdSS) {
             const queryFilter = query(queryCollection, where('categoria', '==', categoriaIdSS))
             getDocs(queryFilter)
                 .then(res => setDataSS(res.docs.map(data => ({ id: data.id, ...data.data() }))))

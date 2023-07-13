@@ -13,10 +13,10 @@ const Series = () => {
                 <Link to={'/series/casadepapel'}><li>La casa de papel</li></Link>
                 </div>
                 <div>
-                <Link to={'/series/bb'}><li>Breaking Bad</li></Link>
+                <Link to={'/series/Merli'}><li>Merli</li></Link>
                 </div>
                 <div>
-                <Link to={'/series/gameofthrones'}><li>Game of Thrones</li></Link>
+                <Link to={'/series/bb'}><li>Breaking Bad</li></Link>
                 </div>
                 <div>
                 <Link to={'/series/bettercallsaul'}><li>Better Call Saul</li></Link>
